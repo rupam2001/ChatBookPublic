@@ -1,0 +1,151 @@
+.back{
+  width: 40px;
+  height: 25px;
+  display: block;
+  background: url('./icons/back1.svg');
+  /* margin-left: 0.2rem; */
+  margin-left: -1rem;
+}
+.headr{
+  background-color: blueviolet;
+}
+.launchBar{
+  position: -webkit-sticky;
+  position: fixed;
+  bottom: 0;
+  /* background-color: rgba(121, 66, 248); */
+  padding: 0.2rem;
+  box-shadow: 2px 2px 2px rgb(46, 78, 80);
+  z-index: 1;
+}
+.send{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url('./icons/send.svg');
+  margin: 0.3rem;
+}
+
+
+
+
+.box{
+  background-color: azure;
+}
+.navbar1{
+  background-color: rgb(97, 207, 226);
+  padding: 0.5rem;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+}
+
+
+
+.wrapper{
+  padding: 10px 10px;
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+align-self: flex-end;
+color: #fff;
+}
+.bubbleWrapper {
+padding: 1px 5px;
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+align-self: flex-end;
+color: #fff;
+}
+.inlineContainer {
+display: inline-flex;
+}
+.inlineContainer.own {
+flex-direction: row-reverse;
+}
+.inlineIcon {
+width:20px;
+object-fit: contain;
+}
+.ownBubble {
+min-width: 60px;
+max-width: 700px;
+padding: 14px 18px;
+margin: 1px 2px;
+background-color: #5b5377;
+border-radius: 16px 16px 0 16px;
+border: 1px solid #443f56;
+
+}
+.otherBubble {
+min-width: 60px;
+max-width: 700px;
+padding: 14px 18px;
+margin: 6px 2px;
+background-color: #6C8EA4;
+border-radius: 16px 16px 16px 0;
+border: 1px solid #54788e;
+
+}
+.own {
+align-self: flex-end;
+}
+.other {
+align-self: flex-start;
+}
+span.own,
+span.other{
+font-size: 14px;
+color: grey;
+}
+
+
+
+.spinner {
+  margin: 100px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+.writing{
+    position: relative;
+    float: left;
+}

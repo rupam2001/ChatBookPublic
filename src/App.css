@@ -1,0 +1,45 @@
+
+.head{
+  position: relative;
+  text-align: center;
+  padding: 0.5rem;
+}
+.htext{
+    margin-left: -2rem;
+    color: azure;
+}
+
+
+.nvr{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgba(121, 66, 248);
+  padding: 0.2rem;
+  box-shadow: 2px 2px 2px rgb(46, 78, 80);
+  z-index: 22;
+}
+.head h6{
+  padding-bottom: 0.3rem;
+}
+.global{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url('./icones/chat.svg');
+  margin-left: 1rem;
+}
+.chat{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url('./icones/chats.svg');
+  margin-left: 1rem;
+}
+.add{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url('./icones/add.svg');
+  margin-left: 2.5rem;
+}
