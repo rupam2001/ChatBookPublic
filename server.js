@@ -10,7 +10,7 @@ app.use(express.json());
 
 // const moongose = require('mongoose');
 // const uri = process.env.ATLAS_URI;
-// const uri2 = 'mongodb+srv://RupamJdas:<iwillnotdie>@cluster0-omljr.mongodb.net/test?retryWrites=true&w=majority';
+// const uri2 = 'mongodb+srv://RupamJdas:<>@cluster0-omljr.mongodb.net/test?retryWrites=true&w=majority';
 // moongose.connect(uri2, { useNewUrlParser: true });
 // const connection = moongose.connection;
 // connection.once('open', () => { console.log("Database connection successfull..") })
@@ -110,13 +110,13 @@ app.get('/chatTopics', (req, res) => {
     // res.json(
     //     {
     //         chatTopics:
-    //             [{ _id: 1, useName: 'About Sex ', memebers: 10 },
+    //             [{ _id: 1, useName: 'About  ', memebers: 10 },
     //             { _id: 2, title: 'About World', memebers: 7 },
     //             { _id: 3, title: 'About Space', memebers: 11 },
-    //             { _id: 4, title: 'About Sex ', memebers: 10 },
+    //             { _id: 4, title: 'About  ', memebers: 10 },
     //             { _id: 5, title: 'About World', memebers: 7 },
     //             { _id: 6, title: 'About Space', memebers: 11 },
-    //             { _id: 7, title: 'About Sex ', memebers: 10 },
+    //             { _id: 7, title: 'About  ', memebers: 10 },
     //             { _id: 8, title: 'About World', memebers: 7 },
     //             { _id: 9, title: 'About Space', memebers: 11 }]
     //     })
